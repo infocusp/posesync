@@ -42,6 +42,4 @@ python3 main.py
 
 ## Demo
 
-![PoseSync_Demo](https://github.com/InFoCusp/posesync/assets/113093456/1010e9fd-b112-4eb1-ba85-40877999fd6d)
-
-
+![](https://github.com/InFoCusp/posesync/blob/main/data/PoseSync_Demo.gif)
