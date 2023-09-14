@@ -45,7 +45,7 @@ class YOLOCrop(CropVideo):
 
     def __init__(self, method=None, model_path=None):
         super().__init__('yolo')
-        self.model_path = model_path or '../data/models/yolo/yolov5x.pt'
+        self.model_path = model_path or 'models/yolo/yolov5x.pt'
         self.load_model(self.model_path)
 
     def load_model(self, model_path):

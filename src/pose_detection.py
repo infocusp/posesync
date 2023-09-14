@@ -53,7 +53,7 @@ class MovenetPoseDetection(PoseDetection):
     def __init__(self, model_name=None, input_size=None, model_path=None):
         model_name = model_name or 'movenet'
         input_size = input_size or 256
-        model_path = model_path or '../data/models/movenet/movenet_tf/1'
+        model_path = model_path or 'models/movenet/movenet_tf/1'
         super().__init__(model_name, input_size, model_path)
 
     def load_model(self):
