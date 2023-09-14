@@ -311,6 +311,5 @@ class Plot:
             comparison_img_list, display_line
             )
 
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        clip = ImageSequenceClip(list(comparison_img_list), fps=5)
-        clip.write_videofile(output_path, fps=5)
+        video = ImageSequenceClip(list(comparison_img_list), fps=5)
+        video.write_videofile(output_path, fps=5)

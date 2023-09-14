@@ -31,8 +31,6 @@ def main(ref_video_path, test_video_path, output_video_path, crop_method="yolo")
 
   utils.Plot.plot_matching(ref_crop_frames, test_crop_frames, ref_keypoints, test_keypoints,ref_frame_idx, test_frame_idx, costs,output_video_path)
 
-  return output_video_path
-
 
 if __name__ == "__main__":
 
